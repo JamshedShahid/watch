@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+     /* background-color: rgb(236, 214, 214);  */
+     
+    
+}
+.wel{
+    background-image: linear-gradient(to right top, #920592, #881fa0, #7b2eae, #6a3aba, #5245c6, #3b4fc4, #2157c0, #005dba, #005fa0, #005a7e, #00515c, #264644);
+    /* position: relative; */
+    height: 100vh;
+    /* overflow: hidden; */
+
+    
+}
+.open{
+    width: 100%;
+  display: flex;
+  align-items:center ;
+  justify-content: space-evenly;
+ flex-direction: column;
+       padding-top: 10%;
+ 
+}
+.wi{
+    padding-left: 50px;
+}
+
+.wit{
+    padding-left: 60px;
+}
+.aa>a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.aa>a:hover{
+    color: red;
+}
+
+.hour{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+   
+    
+}
+.ee{
+    /* border: 1px solid black; */
+    padding-left: 40px;
+     /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+    
+    /* padding-right: 10px; */
+}
+
+.minu{
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    justify-content: space-evenly;
+    box-shadow: rgb(70, 42, 224) 3px 3px 6px 0px inset, rgba(18, 105, 218, 0.788) -3px -3px 6px 1px inset;
+    align-items: center;
+    /* border: 1px solid black; */
+    
+   
+    border-radius:50% ;
+}
+h2{
+    /* color: ; */
+    font-size: 50px ;
+}
+.buttons{
+    z-index: 2;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 50vh;
+    
+}
+.btn{
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: rgb(70, 42, 224) 3px 3px 6px 0px inset, rgba(18, 105, 218, 0.788) -3px -3px 6px 1px inset;
+    background-image: linear-gradient(to right top, #920592, #881fa0, #7b2eae, #6a3aba, #5245c6, #3b4fc4, #2157c0, #005dba, #005fa0, #005a7e, #00515c, #264644);
+
+}
+.btn:hover{
+    color: rgb(255, 250, 250);
+    box-shadow: rgb(30, 17, 104) 3px 3px 6px 0px inset, rgba(80, 146, 231, 0.788) -3px -3px 6px 1px inset;
+     animation: btn 0.5 ease forwards;
+}
+@keyframes btn{
+   from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
